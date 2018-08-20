@@ -1,0 +1,15 @@
+1.Install python 3 from python.org
+2.Install django ,open cmd and paste the following text (pip install django)
+3.copy "website" folder from rar file to desktop
+4.install mysql database (give mysql credentials username:root password:FunPride)
+5.open sql cmd and create database with name "online_exam"
+6.open cmd and redirect to "website" folder in desktop ,which contails manage.py file
+7.Type the following commands
+8.python manage.py migrate
+9.python manage.py makemigrations sampleresponse
+10.python manage.py migrate
+11.Insert data into sampleresponse_admin(give the admin credentials),sampleresponse_voters(sample voters list)
+12.Install xamp from internet
+13.Copy and Paste the Htdocs folder from rar file to xamp folder in c drive .
+14.Start the xamp server
+14.open your browser and paste the following (http://localhost/project/)
