@@ -1,9 +1,9 @@
 from django import forms
 class RegistrationForm(forms.Form):
-    first_name = forms.CharField(max_length=64)
-    last_name = forms.CharField(max_length=64)
-    email = forms.CharField(max_length=64)
-    password = forms.CharField(max_length=64)
+    first_name = forms.CharField(max_length=66)
+    last_name = forms.CharField(max_length=66)
+    email = forms.CharField(max_length=66)
+    password = forms.CharField(max_length=66)
 class LoginForm(forms.Form):
     email = forms.CharField(max_length=64)
     password = forms.CharField(max_length=64)
