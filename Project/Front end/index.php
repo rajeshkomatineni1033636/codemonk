@@ -8,7 +8,7 @@
 body {font-family: Arial, Helvetica, sans-serif;}
 body, html {
     height: 100%;
-    margin: 0;
+    margin: 1;
 }
 
 .bg {
