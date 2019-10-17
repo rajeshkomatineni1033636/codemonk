@@ -13,7 +13,7 @@ def signup(request):
 	if form.is_valid():
 		data = form.cleaned_data
 		created = user_details_1.objects.get_or_create(first_name=data['first_name'],last_name=data['last_name'],email=data['email'],password=data['password'])
-		#print(created[1])
+		print(created[1])
 		if created[1]:
 			return HttpResponse("Signup success")
 		else:
